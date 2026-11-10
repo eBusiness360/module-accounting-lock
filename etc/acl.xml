@@ -14,7 +14,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="Maxcode_AccountingLock::config" title="Accounting Lock" translate="title" sortOrder="940"/>
+                            <resource id="Maxcode_AccountingLock::config" title="Accounting Lock" translate="title" sortOrder="80"/>
                         </resource>
                     </resource>
                 </resource>

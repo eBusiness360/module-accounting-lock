@@ -33,7 +33,7 @@ the order: the figures you reported are no longer the ones in the database.
   Magento has no GraphQL mutation to cancel an invoice or a credit memo.
 - **One line in a log file for each blocked attempt**, with no personal data: the kind of document, its
   internal number, the operation and the word `blocked` (`var/log/maxcode_accounting_lock.log`).
-- **One setting**, on by default: *Stores > Configuration > Sales > Accounting Lock*. Per default or per
+- **One setting**, on by default: *Stores > Configuration > Maxcode > Accounting Lock*. Per default or per
   website, so a multi-website shop can switch it off for one of its websites.
 - **Canceling an order is not affected**: it stays possible as long as no invoice exists.
 - **Documents that are already canceled are never modified.** There is no migration and no data patch.
@@ -86,7 +86,7 @@ reading the code of Magento 2.4.6, 2.4.8-p5 and 2.4.9: they are identical.
 
 ## Configuration
 
-**Stores > Configuration > Sales > Accounting Lock > Invoices and credit memos**
+**Stores > Configuration > Maxcode > Accounting Lock > Invoices and credit memos**
 
 | Setting | Default | Role |
 |---|---|---|

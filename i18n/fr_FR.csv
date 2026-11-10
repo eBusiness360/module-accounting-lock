@@ -6,3 +6,4 @@
 "An issued invoice cannot be canceled: correct it with a credit memo.","Une facture émise ne peut pas être annulée : corrigez-la par un avoir."
 "An issued invoice cannot be voided: correct it with a credit memo.","Une facture émise ne peut pas être annulée par un « void » : corrigez-la par un avoir."
 "An issued credit memo cannot be canceled: issue a new invoice.","Un avoir émis ne peut pas être annulé : émettez une nouvelle facture."
+"Maxcode","Maxcode"

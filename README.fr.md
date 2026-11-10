@@ -34,7 +34,7 @@ chiffres que vous avez déclarés ne sont plus ceux de la base.
   Magento n'a pas de mutation GraphQL pour annuler une facture ou un avoir.
 - **Une ligne de journal par tentative bloquée**, sans donnée personnelle : le type du document, son numéro
   interne, l'opération et le mot `blocked` (`var/log/maxcode_accounting_lock.log`).
-- **Un seul réglage**, activé par défaut : *Boutiques > Configuration > Ventes > Accounting Lock*. Par défaut ou par
+- **Un seul réglage**, activé par défaut : *Boutiques > Configuration > Maxcode > Accounting Lock*. Par défaut ou par
   site web : une boutique à plusieurs sites web peut le désactiver pour l'un d'eux.
 - **L'annulation d'une commande n'est pas concernée** : elle reste possible tant qu'aucune facture n'existe.
 - **Les documents déjà annulés ne sont jamais modifiés.** Aucune migration, aucun patch de données.
@@ -86,7 +86,7 @@ lecture du code de Magento 2.4.6, 2.4.8-p5 et 2.4.9 : elles sont identiques.
 
 ## Configuration
 
-**Boutiques > Configuration > Ventes > Accounting Lock > Factures et avoirs**
+**Boutiques > Configuration > Maxcode > Accounting Lock > Factures et avoirs**
 
 | Réglage | Défaut | Rôle |
 |---|---|---|

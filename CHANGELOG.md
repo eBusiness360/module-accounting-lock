@@ -2,6 +2,11 @@
 
 Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versionnage [SemVer](https://semver.org/lang/fr/).
 
+## [1.0.1] - 2026-11-10
+
+### Modifié
+- Le réglage se trouve maintenant dans l'onglet « Maxcode » de Boutiques > Configuration (avec les autres modules Maxcode), et non plus dans l'onglet « Ventes ». La section reste « Accounting Lock » ; la valeur déjà enregistrée n'est pas touchée (même chemin de configuration).
+
 ## [1.0.0] - 2026-11-10 — Première version
 
 ### Ajouté
