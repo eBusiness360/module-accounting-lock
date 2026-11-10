@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    eBusiness360 – Maxime LESGUILLIER aka Maxcode
+ * @copyright Copyright © 2026 eBusiness360 – Maxime LESGUILLIER aka Maxcode. Tous droits réservés.
+ * @license   Licence propriétaire — voir le fichier LICENSE
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="maxcode_accounting_lock" translate="label" type="text" sortOrder="940"
+                 showInDefault="1" showInWebsite="1" showInStore="0">
+            <label>Accounting Lock</label>
+            <tab>sales</tab>
+            <resource>Maxcode_AccountingLock::config</resource>
+            <group id="general" translate="label comment" type="text" sortOrder="10"
+                   showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>Invoices and credit memos</label>
+                <comment>Under bookkeeping rules an issued invoice is not canceled: it is corrected with a credit memo, and a credit memo is not canceled either: a new invoice is issued. This module applies that rule. This is a technical setting, not accounting or legal advice: ask your accountant to confirm that it fits your rules.</comment>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10"
+                       showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Block the cancellation of invoices and credit memos</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Yes (default): the Cancel button disappears from invoices and credit memos, and any attempt to cancel one (admin, REST API, other code) is refused with a message. An invoice is then corrected with a credit memo; a credit memo is corrected by issuing a new invoice. Consequence to know: an invoice that is still open (for example an offline payment still pending) cannot be canceled either, and Magento offers a credit memo only once an invoice is paid. Documents that are already canceled are never modified. Canceling an order is not affected: it stays possible as long as no invoice exists. A payment refusal reported by the payment provider (payment review) still cancels the open invoice created for that payment.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

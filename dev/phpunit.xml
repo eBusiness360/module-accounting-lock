@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Suite unitaire de Maxcode_AccountingLock. Le module doit être présent dans app/code/Maxcode/AccountingLock
+    d'une installation Magento. Lancer depuis la racine de l'installation :
+    vendor/bin/phpunit -c app/code/Maxcode/AccountingLock/dev/phpunit.xml
+-->
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd"
+         bootstrap="../../../../../dev/tests/unit/framework/bootstrap.php"
+         colors="true"
+         failOnWarning="true"
+         failOnRisky="true">
+    <testsuites>
+        <testsuite name="Maxcode_AccountingLock_Unit">
+            <directory>../Test/Unit</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <ini name="memory_limit" value="-1"/>
+        <ini name="date.timezone" value="UTC"/>
+    </php>
+</phpunit>

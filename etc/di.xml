@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    eBusiness360 – Maxime LESGUILLIER aka Maxcode
+ * @copyright Copyright © 2026 eBusiness360 – Maxime LESGUILLIER aka Maxcode. Tous droits réservés.
+ * @license   Licence propriétaire — voir le fichier LICENSE
+ */
+
+ Facture : canCancel / canVoid (bouton), cancel (contrôleur d'administration), void (contrôleur et route REST
+ /V1/invoices/:id/void). Avoir : canCancel (bouton) et le service cancel (contrôleur et route REST /V1/creditmemo/:id).
+ Le plugin sur Payment laisse passer l'annulation que Magento déclenche pour un paiement refusé par la passerelle.
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Sales\Model\Order\Invoice">
+        <plugin name="maxcode_accounting_lock_invoice" type="Maxcode\AccountingLock\Plugin\InvoiceLock"/>
+    </type>
+    <type name="Magento\Sales\Model\Order\Creditmemo">
+        <plugin name="maxcode_accounting_lock_creditmemo" type="Maxcode\AccountingLock\Plugin\CreditmemoLock"/>
+    </type>
+    <type name="Magento\Sales\Api\CreditmemoManagementInterface">
+        <plugin name="maxcode_accounting_lock_creditmemo_management"
+                type="Maxcode\AccountingLock\Plugin\CreditmemoManagementLock"/>
+    </type>
+    <type name="Magento\Sales\Model\Order\Payment">
+        <plugin name="maxcode_accounting_lock_payment_gateway_flow"
+                type="Maxcode\AccountingLock\Plugin\PaymentGatewayFlow"/>
+    </type>
+
+    <virtualType name="Maxcode\AccountingLock\Logger\Handler" type="Magento\Framework\Logger\Handler\Base">
+        <arguments>
+            <argument name="fileName" xsi:type="string">/var/log/maxcode_accounting_lock.log</argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="Maxcode\AccountingLock\Logger\Logger" type="Magento\Framework\Logger\Monolog">
+        <arguments>
+            <argument name="name" xsi:type="string">maxcode_accounting_lock</argument>
+            <argument name="handlers" xsi:type="array">
+                <item name="system" xsi:type="object">Maxcode\AccountingLock\Logger\Handler</item>
+            </argument>
+        </arguments>
+    </virtualType>
+    <type name="Maxcode\AccountingLock\Model\Guard">
+        <arguments>
+            <argument name="logger" xsi:type="object">Maxcode\AccountingLock\Logger\Logger</argument>
+        </arguments>
+    </type>
+</config>

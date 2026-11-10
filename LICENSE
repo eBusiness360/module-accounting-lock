@@ -1,0 +1,152 @@
+Modules Maxcode gratuits pour Magento 2 — Contrat de licence utilisateur final (CLUF)
+Maxcode free modules for Magento 2 — End-User License Agreement (EULA)
+Copyright © 2026 eBusiness360 – Maxime LESGUILLIER aka Maxcode. Tous droits réservés. / All rights reserved.
+
+Ce fichier contient la licence en français puis en anglais.
+This file contains the license in French, then in English.
+En cas de divergence entre les deux versions, la version française prévaut.
+In case of any discrepancy between the two versions, the French version prevails.
+
+
+============================  FRANÇAIS  ============================
+
+Le présent contrat régit l'utilisation du module logiciel pour Magento 2 distribué avec le
+présent fichier (le « Logiciel »), mis à disposition à titre gratuit. Il constitue un accord
+juridique entre vous, personne physique ou morale (le « Licencié »), et eBusiness360 –
+Maxime LESGUILLIER aka Maxcode (le « Concédant »). En installant ou en utilisant le Logiciel,
+le Licencié reconnaît avoir lu ce contrat et en accepter les termes. À défaut d'acceptation,
+le Logiciel ne doit être ni installé ni utilisé.
+
+1. CONCESSION DE LICENCE
+   a) Le Logiciel est mis à disposition gratuitement. Aucun paiement n'est dû au Concédant au
+      titre de son utilisation.
+   b) Le Licencié reçoit l'intégralité du code source du Logiciel.
+   c) La licence est valable pour un nombre illimité d'installations Magento appartenant au
+      Licencié ou exploitées par lui, en production comme en test, en développement ou en
+      préproduction.
+   d) Le Licencié est autorisé à adapter et personnaliser le Logiciel pour ses propres besoins
+      sur ces installations.
+   e) La licence est concédée à titre non exclusif et pour une durée indéterminée, sous réserve
+      de l'article 5.
+
+2. ABSENCE DE SUPPORT ET DE MISES À JOUR
+   a) Le Logiciel est fourni sans support technique d'aucune sorte. Le Concédant n'est tenu à
+      aucune assistance, ni à aucun délai de réponse.
+   b) Le Concédant n'est tenu à aucune mise à jour, correction d'anomalie ni mise en
+      compatibilité avec une version future de Magento ou d'un module tiers.
+   c) Le Concédant peut cesser à tout moment de publier des versions du Logiciel, sans préavis
+      et sans que cela n'ouvre droit à une quelconque indemnité.
+   d) Le Concédant propose par ailleurs des modules payants bénéficiant de support et de mises
+      à jour, régis par un contrat distinct.
+
+3. RESTRICTIONS
+   Le Licencié s'interdit, en tout ou partie, à titre gratuit ou onéreux :
+   a) de revendre, distribuer, publier, sous-licencier, louer, prêter, céder ou mettre le
+      Logiciel à la disposition de tout tiers ;
+   b) de réutiliser tout ou partie du code dans un autre logiciel, produit ou site web ;
+   c) de placer le Logiciel sur un serveur permettant sa diffusion via un réseau public ou
+      Internet à des fins de distribution ;
+   d) de supprimer, masquer ou altérer les mentions de propriété, de copyright, les mentions
+      d'attribution affichées par le Logiciel, ou le présent contrat, sauf autorisation écrite
+      du Concédant ou dérogation accordée par une licence payante du Concédant.
+   La gratuité du Logiciel n'emporte aucune renonciation aux présentes restrictions.
+   Toute utilisation non expressément autorisée par le présent contrat est interdite.
+
+4. PROPRIÉTÉ INTELLECTUELLE
+   Le Logiciel demeure la propriété exclusive du Concédant et est protégé par le droit de la
+   propriété intellectuelle ainsi que par les traités internationaux applicables. La présente
+   licence ne transfère au Licencié aucun droit de propriété, hormis le droit d'utilisation
+   défini à l'article 1.
+
+5. RÉSILIATION
+   En cas de manquement du Licencié à l'un quelconque des termes du présent contrat, la
+   licence est résiliée de plein droit, sans préjudice des autres droits du Concédant. Le
+   Licencié doit alors cesser toute utilisation du Logiciel et en détruire toutes les copies.
+
+6. ABSENCE DE GARANTIE
+   LE LOGICIEL EST FOURNI « EN L'ÉTAT », À TITRE GRATUIT, SANS GARANTIE D'AUCUNE SORTE,
+   EXPRESSE OU IMPLICITE, NOTAMMENT SANS AUCUNE GARANTIE DE QUALITÉ MARCHANDE, D'ABSENCE
+   D'ANOMALIE, DE FONCTIONNEMENT ININTERROMPU NI D'ADÉQUATION À UN USAGE PARTICULIER. LE
+   LICENCIÉ EST SEUL JUGE DE L'OPPORTUNITÉ D'INSTALLER LE LOGICIEL ET LUI SEUL SUPPORTE LES
+   RISQUES LIÉS À SON UTILISATION.
+
+7. LIMITATION DE RESPONSABILITÉ
+   EN AUCUN CAS LE CONCÉDANT NE POURRA ÊTRE TENU RESPONSABLE D'UN QUELCONQUE DOMMAGE, DIRECT
+   OU INDIRECT (NOTAMMENT PERTE DE PROFIT, INTERRUPTION D'ACTIVITÉ OU PERTE DE DONNÉES),
+   RÉSULTANT DE L'UTILISATION OU DE L'IMPOSSIBILITÉ D'UTILISER LE LOGICIEL, MÊME S'IL A ÉTÉ
+   INFORMÉ DE L'ÉVENTUALITÉ DE TELS DOMMAGES. LE LOGICIEL ÉTANT FOURNI GRATUITEMENT, AUCUNE
+   INDEMNITÉ NE SAURAIT EXCÉDER ZÉRO EURO (0 €).
+
+8. DROIT APPLICABLE
+   Le présent contrat est régi par le droit français. Tout litige relatif à sa validité, son
+   interprétation ou son exécution relève de la compétence exclusive des tribunaux français.
+
+
+============================  ENGLISH  ============================
+
+This agreement governs the use of the Magento 2 software module distributed with this file
+(the "Software"), made available free of charge. It is a legal agreement between you, an
+individual or a legal entity (the "Licensee"), and eBusiness360 – Maxime LESGUILLIER aka
+Maxcode (the "Licensor"). By installing or using the Software, the Licensee acknowledges
+having read this agreement and accepts its terms. If the Licensee does not accept them, the
+Software must not be installed or used.
+
+1. GRANT OF LICENSE
+   a) The Software is made available free of charge. No payment is due to the Licensor for its
+      use.
+   b) The Licensee receives the complete source code of the Software.
+   c) The license is valid for an unlimited number of Magento installations owned or operated
+      by the Licensee, whether in production, test, development or staging.
+   d) The Licensee may adapt and customize the Software for its own needs on those
+      installations.
+   e) The license is granted on a non-exclusive basis and for an indefinite term, subject to
+      section 5.
+
+2. NO SUPPORT AND NO UPDATES
+   a) The Software is provided without technical support of any kind. The Licensor owes no
+      assistance and no response time.
+   b) The Licensor owes no updates, no defect corrections and no compatibility work with any
+      future version of Magento or of any third-party module.
+   c) The Licensor may cease publishing versions of the Software at any time, without notice
+      and without this giving rise to any compensation.
+   d) The Licensor also offers paid modules that come with support and updates, governed by a
+      separate agreement.
+
+3. RESTRICTIONS
+   The Licensee shall not, in whole or in part, whether free of charge or for a fee:
+   a) resell, distribute, publish, sublicense, rent, lease, lend, assign or make the Software
+      available to any third party;
+   b) reuse all or part of the code in any other software, product or website;
+   c) place the Software on a server allowing its distribution over a public network or the
+      Internet for distribution purposes;
+   d) remove, obscure or alter any proprietary or copyright notices, any attribution notice
+      displayed by the Software, or this agreement, except with the Licensor's written
+      permission or under a derogation granted by a paid license of the Licensor.
+   The fact that the Software is free of charge does not waive any of these restrictions.
+   Any use not expressly authorized by this agreement is prohibited.
+
+4. INTELLECTUAL PROPERTY
+   The Software remains the exclusive property of the Licensor and is protected by intellectual
+   property law and applicable international treaties. This license transfers no ownership right
+   to the Licensee other than the right of use defined in section 1.
+
+5. TERMINATION
+   In the event of any breach by the Licensee of any term of this agreement, the license
+   terminates automatically, without prejudice to any other rights of the Licensor. The Licensee
+   must then cease all use of the Software and destroy all copies thereof.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", FREE OF CHARGE, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF MERCHANTABILITY, OF ABSENCE OF DEFECTS,
+   OF UNINTERRUPTED OPERATION OR OF FITNESS FOR A PARTICULAR PURPOSE. THE LICENSEE ALONE DECIDES
+   WHETHER TO INSTALL THE SOFTWARE AND ALONE BEARS THE RISKS OF ITS USE.
+
+7. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DAMAGES, DIRECT OR INDIRECT (INCLUDING LOSS
+   OF PROFIT, BUSINESS INTERRUPTION OR LOSS OF DATA), ARISING FROM THE USE OR INABILITY TO USE
+   THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. AS THE SOFTWARE IS PROVIDED
+   FREE OF CHARGE, NO COMPENSATION MAY EXCEED ZERO EUROS (EUR 0).
+
+8. GOVERNING LAW
+   This agreement is governed by French law. Any dispute relating to its validity, interpretation
+   or performance falls under the exclusive jurisdiction of the French courts.

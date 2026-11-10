@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    eBusiness360 – Maxime LESGUILLIER aka Maxcode
+ * @copyright Copyright © 2026 eBusiness360 – Maxime LESGUILLIER aka Maxcode. Tous droits réservés.
+ * @license   Licence propriétaire — voir le fichier LICENSE
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <maxcode_accounting_lock>
+            <general>
+                <enabled>1</enabled>
+            </general>
+        </maxcode_accounting_lock>
+    </default>
+</config>
